@@ -1,0 +1,30 @@
+.list-item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    max-width: 1700px;
+    margin :0px auto;
+}
+
+.list {
+    margin: 40px 10px;
+    padding: 10px 10px;
+}
+
+.product a:hover {
+    color : red;
+}
+
+ul.sale li {
+    margin-top: 50px;
+}
+
+h5.title {
+    color : red;
+    font-size: large;
+    font-weight: 900;
+}
+
+a {
+    color : black;
+}

@@ -1,0 +1,174 @@
+.body {
+    padding: 0;
+    margin: 0;
+    max-width: 1170px;
+    margin :0px auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.item-genuine {
+    margin-top: 10px;
+    background-color: rgba(55, 169, 160, 0.591);
+    border-radius: 10px;
+}
+
+.wrapper-sale {
+    background-color: rgba(55, 169, 160, 0.591);
+    border-radius: 10px;
+}
+
+h3 , .sale-cat , .sale-name , .sale-price {
+    font-family: "Gluten", sans-serif;
+}
+
+.item-sale {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+a {
+    color : black;
+}
+
+a:hover {
+    color : red;
+    /* background-color: green; */
+}
+
+h3 {
+    font-size: 18px;
+    background-color: #bebebe;
+    color :#555;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+ul.sale {
+    list-style: none;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.sale li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+ul.sale li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.sale li .sale-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.sale li .sale-top .sale-thumb {
+    display: block;
+}
+
+ul.sale li:hover .sale-top .sale-thumb img{
+    filter: opacity(80%);
+}
+
+ul.sale li .sale-top .sale-thumb img {
+    display: block;
+}
+
+ul.sale li .sale-top a.buy-now {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color : #fff;
+    padding: 10px 0px;
+    font-family: "Gluten", sans-serif;
+    position: absolute;
+    bottom: -36px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+ul.sale li:hover a.buy-now {
+    bottom: 0px;
+
+}
+
+ul.sale li .sale-infor {
+    padding: 10px 0px;
+}
+
+ul.sale li .sale-infor a {
+    display:block;
+    text-decoration: none;
+}
+
+ul.sale li .sale-infor a.sale-cat {
+    font-size: 11px;
+    color : #9e9e9e;
+    text-transform: uppercase;
+    padding: 3px 0px;
+}
+
+ul.sale li .sale-infor a.sale-name {
+    color : #334862;
+    padding: 3px 0px;
+}
+
+ul.sale li .sale-infor .sale-price {
+    color : #111;
+    padding: 2px 0px;
+    font-weight: 600;
+}
+
+.item-genuine {
+    text-align: center;
+}
+
+div.item-genuine .owl-carousel .item ul.sale li {
+    flex-basis: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.owl-carousel{
+    z-index: 1;
+}
+
+.link {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.link div {
+    padding-left: 475px;
+}
+
+img.nen {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1170px;
+    padding: 0px 0px;
+    margin-top: 30px;
+}
